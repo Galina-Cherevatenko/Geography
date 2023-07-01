@@ -1,0 +1,17 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  liquibase:
+    enabled: true
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+    hikari:
+      driver-class-name:
+  jpa.properties.hibernate:
+    format_sql: true
+    show-sql: true
+    jdbc.lob.non_contextual_creation: true
+
